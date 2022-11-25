@@ -173,7 +173,7 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-400);
-  background-color: black;
+ 
 
 }
 p:not([class]) {
@@ -372,7 +372,7 @@ color: var(--clr-accent-400);
   background-color: var var(--clr-primary-400)
 }
 .bg-accent-400 {
-  background-color: var(--clr-accent-00)
+  background-color: var(--clr-accent-400)
 }
 .bg-accent-100 {
   background-color: var(--clr-accent-100)
