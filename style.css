@@ -173,6 +173,7 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-400);
+  background-color: black;
 
 }
 p:not([class]) {
@@ -323,24 +324,24 @@ color: var(--clr-accent-400);
 
 
 /* cta */
-
-.primary-header {
+.cta {
   position: relative;
   isolation: isolate;
-
+  
+ 
 }
 
 
-.primary-header::before {
+
+.cta::before {
   content: "";
   position: absolute;
-  inset: 1;
-  background-image: url("images\bg-tablet-pattern.svg");
-  
+  inset: 0;
+  background-image: url("C:\Users\Grace Dim\Desktop\Frontend-mentor-laning-page\images\bg-tablet-pattern.svg");
   z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
   
- 
-
 }
 
 
@@ -371,7 +372,7 @@ color: var(--clr-accent-400);
   background-color: var var(--clr-primary-400)
 }
 .bg-accent-400 {
-  background-color: var(--clr-accent-400)
+  background-color: var(--clr-accent-00)
 }
 .bg-accent-100 {
   background-color: var(--clr-accent-100)
@@ -410,7 +411,7 @@ color: var(--clr-accent-400);
 .fs-600 { font-size: var(--fs-600)}
 
 .padding-block-900 {
-padding-block: var(--size-800);
+padding-block: var(--size-900);
 }
 .padding-block-700 {
 padding-block: var(--size-800);
